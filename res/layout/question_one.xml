@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="101dp"
+        android:layout_y="368dp"
+        android:onClick="seguirCancion"
+        android:text="Seguir" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="54dp"
+        android:layout_height="wrap_content"
+        android:layout_x="12dp"
+        android:layout_y="46dp"
+        android:text="B)" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="56dp"
+        android:layout_height="wrap_content"
+        android:layout_x="14dp"
+        android:layout_y="86dp"
+        android:text="C)" />
+
+    <TextView
+        android:id="@+id/pos"
+        android:layout_width="52dp"
+        android:layout_height="wrap_content"
+        android:layout_x="14dp"
+        android:layout_y="12dp"
+        android:text="A)" />
+
+    <EditText
+        android:id="@+id/et1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="30dp"
+        android:layout_y="164dp"
+        android:ems="10" />
+
+</AbsoluteLayout>

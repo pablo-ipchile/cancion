@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="106dp"
+        android:layout_y="79dp"
+        android:onClick="PararCancion"
+        android:text="Stop" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="102dp"
+        android:layout_y="140dp"
+        android:text="Pausar" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="104dp"
+        android:layout_y="26dp"
+        android:onClick="playCancion"
+        android:text="Play" />
+
+    <Chronometer
+        android:id="@+id/timerValue"
+        android:layout_width="120dp"
+        android:layout_height="98dp"
+        android:layout_x="102dp"
+        android:layout_y="241dp"
+        android:text="Chronometer" />
+
+</AbsoluteLayout>
